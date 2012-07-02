@@ -4,7 +4,7 @@ Facemenow::Application.routes.draw do
 
   get "home/index"
 
-  #match '/auth/facebook/callback' => 'user#index'
+  match '/auth/facebook/callback' => 'user#index'
   
   root :to => 'home#index'
   

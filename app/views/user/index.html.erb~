@@ -1,2 +1,4 @@
-<h1>User#index</h1>
+<div class="main">
+<h1>User's page</h1>
 <p>Find me in app/views/user/index.html.erb</p>
+</div>
