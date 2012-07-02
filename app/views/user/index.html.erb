@@ -1,5 +1,11 @@
 <div class="main">
-<h1>User's page</h1>
-<p>Hi <%= link_to @info['info']['name'], @info['info']['Facebook'] %></p>
-<%= @info['info'] %>
+  <h1>User's page</h1>
+  <div style="float:left;">
+    <%= image_tag @info['info']['image'] %>
+  </div>
+  <div style="float:left;">
+    <p>Hi <%= link_to @info['info']['name'], @info['info']['urls']['Facebook'] %></p>
+    <p>Your email is <%= @info['info']['email'] %>
+  </div>
+  <div style="clear:both;">
 </div>

@@ -1,5 +1,6 @@
 <div class="main">
 <h1>User's page</h1>
-<p>Hi <%= link_to @info['info']['name'], @info['info']['Facebook']</p>
+<p>Hi <%= link_to @info['info']['name'], @info['info']['urls']['Facebook'] %></p>
+<p>Your email is <%= @info['info']['email'] %>
 <%= @info['info'] %>
 </div>
